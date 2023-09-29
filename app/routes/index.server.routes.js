@@ -22,4 +22,10 @@ router.get('/services', function(req, res, next){
     res.render('pages/services',{title: 'Services'});
 });
 
+router.post('/submit', (req, res) => {
+    // Redirect the user back to the Home Page after form submission
+    res.redirect('/');
+});
+
+
 module.exports=router;

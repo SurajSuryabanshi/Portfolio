@@ -1,0 +1,22 @@
+.container{
+    color: white;
+    margin-bottom: 200px;
+}
+.mypic {
+    margin-top: 20px;
+    width: 400px;
+    height: 400px;
+    object-fit: cover;
+    border: 10px solid #ffffff;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2);
+}
+
+.btn-primary {
+    background-color: #4CAF50;
+    border: none;
+    transition: background-color 0.3s ease;
+}
+
+.btn-primary:hover {
+    background-color: #45a049;
+}
