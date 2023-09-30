@@ -1,11 +1,12 @@
 .jumbotron {
-    background-image: url('/images/background.jpg');
+    background-image:url('/images/homepgpic.jpg');
     color: black;
     padding: 100px 25px;
     background-size: cover;
     background-position: center;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
 }
+
 
 .jumbotron h1 {
     font-size: 3em;
@@ -31,4 +32,9 @@
 .row{
     margin-bottom: 50px;
     color: white;
+}
+
+.info-home{
+    background-color: white ;
+   
 }

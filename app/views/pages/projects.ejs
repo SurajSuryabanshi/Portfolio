@@ -1,6 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+  <link rel="stylesheet" href="/css/project.css" /> 
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
   <%- include('../partials/header'); %>
 </head>
 <body class="container">
@@ -11,8 +15,36 @@
 
 <main>
   <div class="jumbotron">
-    <h1>This is great</h1>
-    <p>Welcome to my projects</p>
+    <div class="container">
+      <h1 class="text-center mb-4">Featured Projects</h1>
+      <div id="project-carousel" class="carousel slide" data-ride="carousel">
+          <div class="carousel-inner">
+              <div class="carousel-item active">
+                  <img src="/images/project 1.png" class="d-block w-100" alt="Project 1">
+                  <div class="carousel-caption d-none d-md-block">
+                      <h5>Fitness Centre</h5>
+                      <p>My Role was to design the page using Figma and Adobe Photosho, and creating a base necessary html and css code</p>
+                  </div>
+              </div>
+              <div class="carousel-item">
+                <img src="/images/project 2.png" class="d-block w-100" alt="Project 2">
+                  <div class="carousel-caption d-none d-md-block">
+                      <h5>Under process</h5>
+                      <p>Currently I have not been engaged in any major projects but i have been trying to design and deploy a e-commerce website very soon.</p>
+                  </div>
+              </div>
+              
+          </div>
+          <a class="carousel-control-prev" href="#project-carousel" role="button" data-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="sr-only">Previous</span>
+          </a>
+          <a class="carousel-control-next" href="#project-carousel" role="button" data-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="sr-only">Next</span>
+          </a>
+      </div>
+  </div>
   </div>
 </main>
 
